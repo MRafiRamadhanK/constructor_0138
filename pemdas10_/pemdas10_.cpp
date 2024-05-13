@@ -17,4 +17,12 @@ public:
 };
 int mahasiswa::nim = 10;
 
-void mahasiswa :: setID()
+void mahasiswa::setID()
+{
+	id = ++nim;
+}
+
+void mahasiswa::printAll()
+{
+	cout
+}
