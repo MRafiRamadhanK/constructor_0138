@@ -4,8 +4,8 @@ using namespace std;
 
 class mahasiswa {
 public:
-	static int nim;
-	int id;
+	static long int nim;
+	long int id;
 	string nama;
 
 	void setID();
@@ -15,15 +15,13 @@ public:
 		setID();
 	}
 };
-int mahasiswa::nim = 10;
+long long int mahasiswa::nim = 20230140138;
 
-void mahasiswa::setID()
-{
+void mahasiswa::setID(){
 	id = ++nim;
 }
 
-void mahasiswa::printAll()
-{
+void mahasiswa::printAll(){
 	cout << "ID    =" << id << endl;
 	cout << "nama    =" << nama << endl;
 	cout << endl;
