@@ -39,6 +39,8 @@ void Angka::isiData() {
 }
 
 int main() {
-	angka belajarCpp(3);
-
+	Angka belajarCpp(3);
+	Angka* ptrBelajarCpp = new Angka(5);
+	delete ptrBelajarCpp;
+	return 0;
 }
